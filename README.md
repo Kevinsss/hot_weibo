@@ -1,7 +1,7 @@
 # Hot_weibo
 
 ## Description
-Count the top 10 of weibo, and send it to your mailbox.
+Count the top 10 of weibo, and send it to your mailbox. You can also create cron job for this program.
 
 ## Environment
 	Python: 2.7.*
@@ -14,7 +14,7 @@ Count the top 10 of weibo, and send it to your mailbox.
 
 ---------------------------------------------------------------------------------------
 ## 描述
-统计新浪微博热点榜单前10名的话题，以文本形式发送到你的邮箱。
+统计新浪微博热点榜单前10名的话题，以文本形式发送到你的邮箱。可以设置成定时任务。
 
 ## 环境
 	Python: 2.7.*
