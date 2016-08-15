@@ -10,7 +10,7 @@ class MailUtil(object):
 		self.mail_host = 'email server addr, eg: smtp.163.com'
 		self.mail_user = 'email address of sender'
 		self.mail_pass = 'your email password'
-		self.to = to
+		self.to = ['receiver list']
 		self.sub = sub
 		self.content = content
 

@@ -34,7 +34,7 @@ def data_analysis(data):
 	sdate = datetime.datetime.now().strftime('%Y-%m-%d')
 	
 	# put your receiver address
-	mail = MailUtil(['email address of receiver'], u'微博榜单' + sdate, text)
+	mail = MailUtil( u'微博榜单' + sdate, text)
 	# put your receiver address
 
 	print 'Sending email.....'
