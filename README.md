@@ -1,7 +1,7 @@
 # Hot_weibo
 
 ## Description
-Count the top 10 of weibo, and send it to your mailbox. You can also create cron job for this program.
+Count the top 10 of weibo, and send it to your mailbox. You can also create a cron job for this program.
 
 ## Environment
 	Python: 2.7.*
@@ -9,7 +9,7 @@ Count the top 10 of weibo, and send it to your mailbox. You can also create cron
 
 ## How To Use
 1. Setup python
-2. Update the email settings in `MailUtil.init()` function(including SMTP server's addr, email、password of sender, email of receiver)
+2. Update the email settings in `MailUtil.init` function(including SMTP server's addr: `self.mail_host`, email: `self.mail_user`、password of sender: `self.mail_pass`, email of receiver: `self.to`)
 3. Run the `hot_weibo.py`.
 
 ---------------------------------------------------------------------------------------
@@ -22,7 +22,7 @@ Count the top 10 of weibo, and send it to your mailbox. You can also create cron
 
 ## 如何使用
 1. 配置Python环境
-2. 在MailUtil类init函数中配置邮箱信息(包括SMTP服务器，发件人邮箱名、密码，收件人邮箱名)
+2. 在`MailUtil.init`函数中配置邮箱信息(包括SMTP服务器: `self.mail_host`，发件人邮箱: `self.mail_user`、密码: `self.mail_pass`，收件人邮箱列表: `self.to`)
 3. 执行`hot_weibo.py`文件。
 
 ## Result
